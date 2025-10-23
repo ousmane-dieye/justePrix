@@ -1,0 +1,99 @@
+html, body {
+  background-color: #232020;
+  min-width: 500px;
+
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers horizontally */
+  min-height: 100vh;   /* Ensures full viewport height */
+  margin: 0;
+}
+
+header {
+  color: #ff7315;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 100px;
+}
+.row{
+  padding-top: 0;
+}
+#formulaire{
+   border: 2px solid white;
+  min-height: 50vh;
+  width: 500px; /* Use px or % instead of vh */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.col{
+    margin: 5% 5% 10% 0;
+    padding-top: 0;
+}
+#instructions {
+  color: white;
+}
+
+.instruction {
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.plus {
+  background-color: #f67280;
+  display: flex;
+}
+
+.moins {
+  background-color: #ffa372;
+  display: flex;
+}
+
+.fini {
+  background-color : #0c9463;
+  display: flex;
+}
+
+.text-danger{
+    display: none;
+    color: red;
+    
+}
+#erreur{
+    margin-bottom: 10px;
+}
+#prix{
+    min-height: 15vh;
+    min-width: 50vh;
+}
+
+
+#btn{
+    margin-top: 10px;
+    background-color: aliceblue;
+    width: 10vh;
+}
+
+.rejouer{
+  color: orange;
+  border: 2px solid white;
+  margin-top: 3vh;
+  height: 5vh;
+  width: 15vh;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 2vh;
+  border-radius: 50%;
+  display: none;
+}
+
+.rejouer:hover{
+  box-shadow: 1px 1px 1px 1px #e4cece;
+  background-color: #463232;
+  color:aliceblue
+}
